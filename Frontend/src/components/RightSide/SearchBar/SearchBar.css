@@ -1,0 +1,24 @@
+.SearchBar{
+    display: flex;
+    gap: 5%;
+    padding: 1rem;
+    height: max-content;
+    width: 100%;
+    align-items: center;
+    
+}
+
+.search-icon{
+    font-size: 1.75rem;
+    text-decoration: none;
+    color: #40a7f6;
+    width: 10%;
+}
+
+.search-bar{
+    width: 85%;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: none;
+    background-color: aliceblue;
+}

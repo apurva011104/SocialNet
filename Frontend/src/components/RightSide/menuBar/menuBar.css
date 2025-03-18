@@ -1,0 +1,14 @@
+.menu{
+    display: flex;
+    padding: 1rem;
+    font-size: 1.75rem;
+    gap: 1rem;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+a{
+    text-decoration: none;
+    color: #40a7f6;
+}

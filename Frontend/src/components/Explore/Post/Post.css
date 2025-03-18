@@ -1,0 +1,53 @@
+.Post{
+    display: flex;
+    flex-direction: column;
+    min-height: 40vh;
+    gap: 1rem;
+    padding: 1rem;
+    border-bottom: 1px solid gray;
+}
+
+.username{
+    height: 10%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-left: 1rem;
+}
+.username>img{
+    border-radius: 50%;
+}
+
+.post-image{
+    width: 100%;
+    max-height: 35rem;
+    object-fit: cover;
+}
+
+.reaction{
+    height: 15%;
+    margin: 2.5% 0;
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    
+}
+.likes , .comments{
+    display: flex;
+    gap: 0.5rem;
+}
+
+
+.post-description{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.post-description>h5{
+    font-size: 1rem;
+}
+
+.post-description>p{
+    font-size: 1rem;
+}
